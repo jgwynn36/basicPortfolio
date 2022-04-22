@@ -1,10 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      </style>
-  </head>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jacqueline Gwynn Portfolio</title>
+  <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+
+    button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 22px;
+      color: black;
+    }
+
+    button:hover,
+    a:hover {
+      opacity: 0.7;
+    }
+
+    /* Make sure that padding behaves as expected */
+    * {
+      box-sizing: border-box
+    }
+
+    /* Container for skill bars */
+    .container {
+      width: 100%;
+      /* Full width */
+      background-color: #ddd;
+      /* Grey background */
+    }
+
+    .skills {
+      text-align: right;
+      /* Right-align text */
+      padding-top: 10px;
+      /* Add top padding */
+      padding-bottom: 10px;
+      /* Add bottom padding */
+      color: white;
+      /* White text color */
+    }
+
+    .html {
+      width: 90%;
+      background-color: #04AA6D;
+    }
+
+    /* Green */
+    .css {
+      width: 80%;
+      background-color: #2196F3;
+    }
+
+    /* Blue */
+    .js {
+      width: 65%;
+      background-color: #f44336;
+    }
+
+    /* Red */
+    .php {
+      width: 60%;
+      background-color: #808080;
+    }
+
+    /* Dark Grey */
+  </style>
+
+</head>
 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,14 +100,6 @@
   <img src="img.jpg" alt="pic" style="width:100%">
   <h1>Jacqueline Gwynn</h1>
   <h2 class="title">Senior Software Engineer</h2>
-    <p>Passionate Senior Software Engineer in test with an exceptional track-record 
-      in pace over perfection without sacificing quality. 9 years of experience in 
-      quality assurance engineering and software development life-cycle. 
-      Enjoy leading large project teams into a customer oriented deliverable 
-      and influencing quality-first development.</p>
-    <p>Solid foundation in agile methodology and Certified scrum master.  Lead Software Engineer 
-      in test leading cross functional teams within a product area.  Background in API testing and frontend testing. 
-    </p>
   <h2>Education:</h2>
   <p>North Carolina Central University</p>
   <p>University of Phoenix</p>
@@ -30,28 +109,37 @@
   <p><button>Contact</button></p>
 </div>
 
-  <body>
-  
-    <h2>Skills</h2>
-    <p>HTML</p>
-    <div class="container">
-      <div class="skills html">90%</div>
-    </div>
-  
-    <p>CSS</p>
-    <div class="container">
-      <div class="skills css">80%</div>
-    </div>
-  
-    <p>JavaScript</p>
-    <div class="container">
-      <div class="skills js">65%</div>
-    </div>
-  
-    <p>PHP</p>
-    <div class="container">
-      <div class="skills php">60%</div>
-    </div>
+<body>
+  <h2>About Me:</h2>
+  <p>Passionate Senior Software Engineer in test with an exceptional track-record in pace over perfection without sacificing quality. 9 years of experience in
+    quality assurance engineering.  Solid knowledge of software development life-cycle and automation.  Currently leading large project teams within a financial industry company. 
+    Influencing quality-first development within the teams that I support and providing guidance to junior level associates on best practices.</p>
+  <p>Solid foundation in agile methodology and Certified scrum master. Background in API and frontend testing. Knowledge in HTML, CSS, JavaScript, vue.js, angular, and node.js.  
+    Comfortable with proctactor, nest, selenium, testcafe, and cypress testing frameworks.  
+  </p>
+  <p>In my free time I enjoy watching movies and listening to music.  My family is a huge part of my life.  I currently reside in Durham, NC with my two kids and 3 dogs.  </p>
 
-  </body>
+  <h2>Skills</h2>
+  <p>HTML</p>
+  <div class="container">
+    <div class="skills html">90%</div>
+  </div>
+
+  <p>CSS</p>
+  <div class="container">
+    <div class="skills css">80%</div>
+  </div>
+
+  <p>JavaScript</p>
+  <div class="container">
+    <div class="skills js">65%</div>
+  </div>
+
+  <p>PHP</p>
+  <div class="container">
+    <div class="skills php">60%</div>
+  </div>
+
+</body>
+
 </html>
